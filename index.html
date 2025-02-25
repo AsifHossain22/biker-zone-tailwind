@@ -52,8 +52,10 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
-                <li><a>Item 1</a></li>
-                <li><a>Item 3</a></li>
+                <li><a>Home</a></li>
+                <li><a>Shop</a></li>
+                <li><a>News</a></li>
+                <li><a>Contact</a></li>
               </ul>
             </div>
             <a class="text-xl font-bold">Biker Zone</a>
@@ -209,7 +211,50 @@
     </header>
 
     <!-- MainSection -->
-    <main class="md:container mx-auto"></main>
+    <main class="md:container mx-auto">
+      <!-- FeaturedSection -->
+      <section class="py-7 md:py-14 lg:py-24">
+        <!-- SectionTitle -->
+        <div class="text-center lg:pb-12">
+          <h2 class="text-5xl font-semibold text-black">
+            Featured Bikes In This Year
+          </h2>
+          <span class="text-sm font-semibold text-[#E76F51]"
+            >Best bike collection
+          </span>
+          <span class="block h-px w-16 bg-[#E76F51] mx-auto"></span>
+        </div>
+        <!-- FeaturedContainer -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- FeaturedItem - 1 -->
+          <div class="py-5 md:py-3 lg:py-0">
+            <img
+              src="./images/others/feature-bike.png"
+              alt=""
+              class="grayscale mx-auto"
+            />
+          </div>
+
+          <!-- FeaturedItem - 2 -->
+          <div class="py-5 md:py-3 lg:py-0">
+            <img
+              src="./images/others/feature-bike.png"
+              alt=""
+              class="mx-auto"
+            />
+          </div>
+
+          <!-- FeaturedItem - 3 -->
+          <div class="py-5 md:py-3 lg:py-0">
+            <img
+              src="./images/others/feature-bike.png"
+              alt=""
+              class="grayscale mx-auto"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- FooterSection -->
     <footer></footer>
